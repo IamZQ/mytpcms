@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="/Template/mobile/new/Static/css/public.css">
+    <link rel="stylesheet" href="/Template/mobile/new/Static/css/index.css">
+    <link rel="stylesheet" href="/Template/mobile/new/Static/css/test.css">
+    <script type="text/javascript" src="/Template/mobile/new/Static/js/image.js"> </script>
+</head>
+<body>
+<h1>Snapshots</h1>
+<ul id="imagegallery">
+    <li><a href="/Template/mobile/new/Static/images/image_list/img1.jpg"  title="A fireworks display"> Fireworks</a></li>
+    <li><a href="/Template/mobile/new/Static/images/image_list/img2.jpg"  title="A cup of black coffee">coffee</a></li>
+    <li><a href="/Template/mobile/new/Static/images/image_list/img3.jpg"  title="A red ,red rose">Rose</a></li>
+    <li><a href="/Template/mobile/new/Static/images/image_list/img4.jpg"  title="B">红茶</a></li>
+    <li><a href="/Template/mobile/new/Static/images/image_list/img5.jpg"  title="C">绿茶</a></li>
+    <li><a href="/Template/mobile/new/Static/images/image_list/img6.jpg"  title="D">普洱茶</a></li>
+</ul>
+<a href="#" onclick="popUp('http://www.baidu.com/');return false">平稳退化例子1</a>
+<a href="http://www.baidu.com/" onclick="popUp('http://www.baidu.com/');return false">平稳退化例子2</a>
+<a href="http://www.baidu.com/" onclick="popUp(this.href);return false">平稳退化例子3</a>
+<a href="http://www.baidu.com/" class="popup">平稳退化例子4</a>
+<div id="testdiv"><p>  </p> </div>
+
+
+<h1>1</h1>
+<h1>2</h1>
+<h1>3</h1>
+<h1>4</h1>
+<h1>5</h1>
+<p>以下是表格结构</p>
+<table>
+    <thead>
+    <tr>
+        <th>When</th>
+        <th>Where</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>1</td>
+        <td>北京</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>上海</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>深圳</td>
+    </tr>
+    </tbody>
+</table>
+
+<p id="message">Whee!</p>
+
+<canvas id="draw-in-me" width="120" height="40">
+    <p>Powered By Html5</p>
+</canvas>
+
+
+<?php $url = "http://image.yimayholiday.com/data/upload/shop/store/goods/7/7_05410948908205334_360.jpg";
+ $url = "https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=2489051743,1646771720&fm=23&gp=0.jpg";
+  $url = "http://image.yimayholiday.com";
+ $content = file_get_contents($url);
+ $agent  = $_SERVER['HTTP_USER_AGENT'];
+ echo $agent;
+  ?>
+<script>
+//    window.onload = prepareGallery; //为了让事态的发展不偏离计划，必须把prepareGallery函数绑定到这个事件上，但是如果有多个函数要在文档加载完成后就立刻执行应该这样写
+    //创建一个匿名函数来容纳这两个函数,如下：
+
+    /*window.onload =  function(){
+        prepareGallery();
+        prepareLinks();
+    };*/
+//获取可以用  addLoadEvent()创建一个执行队列  栈是先进后出 队列是先进先出 如下：
+    addLoadEvent(function(){
+        prepareGallery();prepareLinks();styleHeaderSiblings();preparePlaceholder();stripeTables();positinoMessage();
+    })
+
+</script>
+</body>
+</html>
+
+
+
+
+

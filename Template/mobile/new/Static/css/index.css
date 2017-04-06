@@ -1,0 +1,26 @@
+.showpage{width:100%;  overflow: hidden;background:#F2F2F2;}
+/*头部样式*/
+.header,#header{background-color:#E71F19; width: 100%; height:45px; overflow: hidden;text-align:center;position: relative;}
+.top_bt{width: 45px;height:45px;position:absolute;top:0px;left:5px;float:left;display:block;}
+.user_btn{ width:45px; height:45px; display: block; float:right; position: absolute; top:0px; right:5px; background-position:0 -38px}
+.logo{font-size:18px;display:block;color:#fff;text-align:center;width:100%;height:45px;line-height:45px;}
+#placeholder{width:350px;}
+
+.scrollimg{position:relative; overflow:hidden; margin:0px auto; /* 设置焦点图最大宽度 */}
+/*.scrollimg .hd{ position: absolute;bottom:0px;text-align: center;width: 100%;}*/
+/*.scrollimg .hd li{display: inline-block;width: .4em;height: .4em;margin: 0 .4em;-webkit-border-radius: .8em;-moz-border-radius: .8em;-ms-border-radius: .8em;-o-border-radius: .8em; border-radius: .8em;background: #FFF;filter: alpha(Opacity=60);opacity: .6;box-shadow: 0 0 1px #ccc; text-indent:-100px; overflow:hidden; }*/
+/*.scrollimg .hd li.on{ filter: alpha(Opacity=90);opacity: .9;background: #f8f8f8;box-shadow: 0 0 2px #ccc; }*/
+.scrollimg .hd{position:absolute;left:0px;bottom:10px;text-align:center;width: 100%;color:red;}
+.scrollimg .hd li{display:inline-block;width: .4em;height:.4em;
+        -moz-border-radius: .8em;
+        -webkit-border-radius: .8em;
+        -ms-border-radius: .8em;
+        -o-border-radius: .8em;
+        background: #FFF;
+        filter: alpha(Opacity=60);
+        opacity: .6;
+        box-shadow: 0 0 1px #ccc;
+        text-indent:-100px;
+        overflow:hidden;
+        margin: .2em;
+    }

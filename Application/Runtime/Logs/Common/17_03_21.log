@@ -1,0 +1,42 @@
+[ 2017-03-21T10:51:05+08:00 ] 127.0.0.1 http://www.mytpcms.com/index.php?m=Mobile/Index/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Mobile/Index/test
+
+[ 2017-03-21T10:51:21+08:00 ] 127.0.0.1 http://www.mytpcms.com/index.php?m=Mobile/Index/web_test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Mobile/Index/web_test
+
+[ 2017-03-21T10:51:31+08:00 ] 127.0.0.1 http://www.mytpcms.com/index.php?m=Mobile/Index/web_test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Mobile/Index/web_test
+
+[ 2017-03-21T10:51:41+08:00 ] 127.0.0.1 http://www.mytpcms.com/index.php?m=Mobile/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Mobile/Index/index
+
+[ 2017-03-21T10:52:45+08:00 ] 127.0.0.1 http://www.mytpcms.com/index.php?m=Home/Index/only_getInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Home/Index/only_getInfo
+
+[ 2017-03-21T10:52:58+08:00 ] 127.0.0.1 http://www.mytpcms.com/index.php?m=Home/Index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Home/Index/
+
+[ 2017-03-21T10:59:11+08:00 ] 127.0.0.1 http://www.mytpcms.com/index.php?m=Mobile/Index/web_test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Mobile/Index/web_test
+

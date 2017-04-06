@@ -1,0 +1,5 @@
+table{margin: auto;border:1px solid  #699;}
+th{font-weight: normal;font-style:italic;text-align:left;border:1px dotted #699;color:#000;background-color:#9cc;}
+th,td{width:10em;padding:.5em;}
+.intro{font-weight: bold;font-size:1.2em;}
+.font_type{font-weight: normal;font-size:.5em;}
