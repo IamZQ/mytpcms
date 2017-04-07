@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project version="4">
-  <component name="dataSourceStorageLocal">
-    <data-source name="MySQL - tpshop@localhost" uuid="9bd20136-6ee1-43f4-9db2-a9b736216c2e">
-      <secret-storage>master_key</secret-storage>
-      <user-name>root</user-name>
-    </data-source>
-  </component>
-</project>
